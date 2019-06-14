@@ -1,10 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Util.Enum
+﻿namespace Util.Enum
 {
-    enum ConfigSettingSession
+    public enum ConfigSettingSession
     {
         BaseUrl
     }

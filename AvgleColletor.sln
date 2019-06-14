@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.271
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AvgleColletor", "AvgleColletor\AvgleColletor.csproj", "{77294020-667E-4F55-9B08-457D8776E22F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AvgleCollector", "AvgleColletor\AvgleCollector.csproj", "{77294020-667E-4F55-9B08-457D8776E22F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Util", "Util\Util.csproj", "{4247956A-659E-42B3-A020-576699BDB7EB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AvgleCollectorModel", "AvgleColletorModel\AvgleCollectorModel.csproj", "{E2F65AE9-AE18-47F0-94F6-BC085BED5795}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{4247956A-659E-42B3-A020-576699BDB7EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4247956A-659E-42B3-A020-576699BDB7EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4247956A-659E-42B3-A020-576699BDB7EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2F65AE9-AE18-47F0-94F6-BC085BED5795}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2F65AE9-AE18-47F0-94F6-BC085BED5795}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2F65AE9-AE18-47F0-94F6-BC085BED5795}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2F65AE9-AE18-47F0-94F6-BC085BED5795}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

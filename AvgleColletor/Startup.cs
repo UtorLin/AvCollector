@@ -13,7 +13,7 @@ using Microsoft.Extensions.Options;
 using Swashbuckle.AspNetCore;
 using Swashbuckle.AspNetCore.Swagger;
 
-namespace AvgleColletor
+namespace AvgleCollector
 {
     public class Startup
     {
@@ -53,7 +53,7 @@ namespace AvgleColletor
 
             app.UseSwaggerUI(c =>
             {
-                c.SwaggerEndpoint("/swagger/v1/swagger.json", "AvgleColletor V1");
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "AvgleCollector V1");
                 c.RoutePrefix = string.Empty;
             });
 
